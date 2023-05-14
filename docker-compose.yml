@@ -22,7 +22,7 @@ services:
   notebook:
     build:
       context: .
-      dockerfile: dockerfiles/notebook/Dockerfile
+      dockerfile: dockerfiles/notebook/Dockerfile-ruby
     image: dss-notebook
     container_name: dss-notebook
     ports:
